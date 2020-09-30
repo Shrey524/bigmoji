@@ -266,8 +266,7 @@ class _MyHomePageState extends State<MyHomePage>
                     if (controller.status == AnimationStatus.forward) {
                       controller.stop();
                     }
-                    print("fuck off");
-                    print(isDrag);
+                    insertDog();
                   },
                   child: Container(
                     height: 50,
